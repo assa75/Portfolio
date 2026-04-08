@@ -6,8 +6,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full 
-    bg-white/90 backdrop-blur-md shadow-md z-[999]">
+    <header className="fixed top-0 left-0 w-full h-20 bg-white/90 backdrop-blur-md shadow-md z-[999]">
 
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4">
 
@@ -29,7 +28,7 @@ export default function Navbar() {
         {/* Mobile Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-2xl text-black"
+          className="md:hidden text-2xl text-gray-800 bg-white rounded-md p-2 shadow"
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>

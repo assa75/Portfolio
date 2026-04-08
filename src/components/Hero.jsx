@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="w-full overflow-hidden pt-24 pb-10 min-h-screen flex items-center
+      className="w-full overflow-hidden pt-28 sm:pt-32 pb-10 min-h-screen flex items-start md:items-center
       bg-gradient-to-r from-cyan-200 via-purple-200 to-pink-200"
     >
       <div className="max-w-6xl w-full mx-auto grid md:grid-cols-2 gap-10 items-center px-4 sm:px-6">
