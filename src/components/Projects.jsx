@@ -20,8 +20,8 @@ export default function Projects(){
       tech:"React • Tailwind CSS • Framer Motion",
       description:"Built a modern, responsive portfolio with smooth animations support to showcase projects, technical skills, and certifications with an engaging user experience.",
       image:portfolio,
-      live:"",
-      github:"https://github.com/assa75/My_Portfolio"
+      live:"https://portfolio-assa75s-projects.vercel.app/",
+      github:"https://github.com/assa75/Portfolio.git"
     },
     {
       title:"MotiMate – Daily Motivation App",
