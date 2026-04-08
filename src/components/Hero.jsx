@@ -19,8 +19,7 @@ export default function Hero() {
     <section
       id="home"
       className="w-full overflow-hidden pt-24 pb-10 min-h-screen flex items-center
-      bg-gradient-to-r from-cyan-200 via-purple-200 to-pink-200
-      dark:from-gray-900 dark:to-gray-800"
+      bg-gradient-to-r from-cyan-200 via-purple-200 to-pink-200"
     >
       <div className="max-w-6xl w-full mx-auto grid md:grid-cols-2 gap-10 items-center px-4 sm:px-6">
 
@@ -30,7 +29,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h3 className="text-base sm:text-lg text-gray-600 dark:text-gray-300">
+          <h3 className="text-base sm:text-lg text-gray-600">
             Welcome to my portfolio
           </h3>
 
@@ -81,7 +80,7 @@ export default function Hero() {
           </h1>
 
           <motion.h2
-            className="text-lg sm:text-xl md:text-2xl mt-4 text-gray-700 dark:text-gray-300"
+            className="text-lg sm:text-xl md:text-2xl mt-4 text-gray-700"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
@@ -89,7 +88,7 @@ export default function Hero() {
             Full Stack Developer
           </motion.h2>
 
-          <p className="mt-4 text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-relaxed">
+          <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
             I love building modern web applications using React, JavaScript, Java and Spring Boot.
           </p>
 
@@ -104,7 +103,7 @@ export default function Hero() {
 
             <a
               href="#projects"
-              className="w-full sm:w-auto text-center border border-gray-400 dark:border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+              className="w-full sm:w-auto text-center border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-200 transition"
             >
               View Projects
             </a>
@@ -121,14 +120,14 @@ export default function Hero() {
           {/* Glow */}
           <div className="absolute w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80
           bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400
-          rounded-full blur-3xl opacity-30 dark:opacity-20"></div>
+          rounded-full blur-3xl opacity-30"></div>
 
           {/* Image */}
           <motion.img
             src={profile}
             alt="Assa Panda"
             className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80
-            max-w-full object-cover rounded-full shadow-2xl border-4 border-white dark:border-gray-700"
+            max-w-full object-cover rounded-full shadow-2xl border-4 border-white"
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 4, repeat: Infinity }}
           />
