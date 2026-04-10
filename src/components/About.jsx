@@ -76,6 +76,7 @@ export default function About() {
 
             <motion.a
               href={resume}
+              download="Assa_Panda_Resume.pdf"
               className="inline-block mt-8 bg-purple-700 text-white px-6 py-3 rounded-lg shadow-md hover:bg-purple-800 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
