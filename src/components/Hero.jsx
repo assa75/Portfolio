@@ -85,7 +85,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Full Stack Developer
+            Software Developer
           </motion.h2>
 
           <p className="mt-4 text-sm sm:text-base text-gray-600 leading-relaxed">
