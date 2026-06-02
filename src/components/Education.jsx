@@ -10,7 +10,7 @@ export default function Education() {
       title:"B.Tech – Computer Science Engineering",
       college:"MIET Engineering College",
       year:"2022 – 2026",
-      status:"Studying",
+      status:"Completed",
       image:college,
       highlight:"Currently focusing on Full Stack Development"
     },
