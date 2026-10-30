@@ -7,6 +7,7 @@ import cert4 from "../assets/images/certificate4.jpg";
 import cert5 from "../assets/images/certificate5.jpg";
 import cert6 from "../assets/images/certificate6.jpg";
 import cert7 from "../assets/images/certificate7.jpg";
+import cert8 from "../assets/images/certificate8.jpg";
 import internship from "../assets/images/internship1.jpg";
 
 export default function Certificates(){
@@ -19,6 +20,7 @@ export default function Certificates(){
     { title:"Java Programming", issuer:"edX", image:cert5 },
     { title:"Machine Learning", issuer:"Simplilearn", image:cert6 },
     { title:"Artificial Intelligence", issuer:"EduBridge", image:cert7 },
+    { title:"SQL (Basic)", issuer:"HackerRank", image:cert8 },
     { title:"Python Internship", issuer:"Skill Vertex", image:internship }
   ];
 
